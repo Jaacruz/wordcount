@@ -1,0 +1,9 @@
+<H1>BookEX</H1>
+<h2>This is a book exchange page. You can find people who want to exchange their books.</h2>
+<a href="{% url 'about'%}">About us.</a>
+<h3>Search the book that you want and exchange.</h3>
+<form action="{%url 'search'%}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br/>
+    <input type="submit" value="Search!"/>
+</form>
